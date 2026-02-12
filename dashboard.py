@@ -47,7 +47,7 @@ if len(tickers) > 1:
     # OPTIMIZATION
     n = len(tickers)
     w0 = np.ones(n) / n
-    bounds = [(0, 1)] * n
+    bounds = [(0.015, 0.15)] * n
 
     def portfolio_vol(w):
         return np.sqrt(np.dot(w.T, np.dot(cov, w)))
