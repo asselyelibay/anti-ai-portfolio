@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/10xleiHcwbx-mAEfzjSVTfVOWDG5qSbBO
 """
 
-pip install yfinance pandas numpy matplotlib seaborn streamlit
-
 import streamlit as st
 import pandas as pd
 import numpy as np
